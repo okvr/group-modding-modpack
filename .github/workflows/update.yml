@@ -67,7 +67,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install nix and packwiz with it
-        uses: aldoborrero/use-nix-action@v4
+        uses: aldoborrero/use-nix-action@v5
 
       - name: Update Mods with Packwiz
         run: packwiz update -a -y
